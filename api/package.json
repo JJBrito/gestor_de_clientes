@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJBrito/gerenciador_de_clientes.git"
+  },
+  "keywords": [],
+  "author": "JJBrito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJBrito/gerenciador_de_clientes/issues"
+  },
+  "homepage": "https://github.com/JJBrito/gerenciador_de_clientes#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "faker": "^5.5.3",
+    "nodemon": "^3.0.3",
+    "pg": "^8.11.3"
+  }
+}
